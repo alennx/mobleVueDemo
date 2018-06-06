@@ -6,8 +6,10 @@ import 'muse-ui/dist/muse-ui.css';
 import App from './App'
 import router from './router'
 import VueScroller from 'vue-scroller'
+import vuex from 'vuex'
 
 Vue.use(MuseUI);
+Vue.use(vuex);
 Vue.use(VueScroller);
 
 Vue.config.productionTip = false

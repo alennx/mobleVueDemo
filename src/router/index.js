@@ -23,6 +23,7 @@ import Toast from '@/components/Toast'
 import Stepper from '@/components/Stepper'
 import Tabs from '@/components/Tabs'
 import Pull from '@/components/Pull'
+import axiosM from '@/components/axiosM'
 
 Vue.use(Router)
 
@@ -142,6 +143,11 @@ export default new Router({
       path: '/pull',
       name: 'Pull',
       component: Pull
+    },
+    {
+      path: '/axiosM',
+      name: 'axiosM',
+      component: axiosM
     }
   
   ]

@@ -81,9 +81,9 @@ export default {
     }
   },
   methods:{
-        goback () {
-            this.$router.go(-1);
-        }
+    goback () {
+        this.$router.go(-1);
+    }
   }
 }
 </script>

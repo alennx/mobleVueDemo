@@ -134,6 +134,12 @@
         </mu-list-item-content>
       </mu-list-item>
       <mu-divider></mu-divider>
+      <mu-list-item avatar :ripple="true" button to="/axiosM">
+        <mu-list-item-content>
+          <mu-list-item-title>axios请求</mu-list-item-title>
+        </mu-list-item-content>
+      </mu-list-item>
+      <mu-divider></mu-divider>
     </mu-list>
   </div>
 </template>
